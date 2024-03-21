@@ -1,0 +1,164 @@
+/* Mobile */ 
+
+.tituloPrin, .texto{
+    color: white;
+    padding: 15px;
+} 
+
+.trofeos{
+    height: 110%;
+    width: 110%;
+
+    }
+body { 
+    background-color: rgb(135, 143, 179);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 100px;
+    background-color: rgb(27, 4, 156);
+    color: goldenrod;
+    flex-direction: row;
+}
+
+.menu_btn {
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    
+}
+
+.menu_btn a{
+    color: a goldenrod;
+    text-decoration: none;
+}
+
+.menu {
+    border-bottom: 5px solid rgb(27, 4, 156);
+    width: 102%;
+    display: flex;
+    background-color: rgb(27, 4, 156);
+}
+
+ul.nav{
+    width: 100%;
+    margin: 0px;
+    display: none;
+    flex-direction: column;
+}
+
+   
+    ul.nav.show {
+        display: flex;
+    }
+
+ul.nav li {
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+}
+
+ul.nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.nav li:hover {
+    background-color: goldenrod;
+}
+    
+
+h2 {
+    text-align: center;
+    font-size: 150%; 
+
+}
+.texto p, p, .lista{
+    margin: 1%;
+    font-size: 110%;
+    text-align: justify;
+
+    margin-right: 30px;
+    color: #fff;
+}
+ 
+tr:hover{
+    background-color: rgb(64, 164, 182);
+}
+.tabla, .tablaDesc{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    border-collapse: collapse;
+}
+   th, td{
+       border: solid 1px black;
+       padding: 15px;
+   }
+th{
+    background-color: mediumblue;
+    color: #fff
+}
+
+form, .verificacioncaptcha{  
+    height: 100px ;   
+     width: 200px;  
+       color: rgb(0, 0, 0);   
+       margin: auto;   
+       text-align: center;
+     }
+     .formulario_venta{
+        padding: 60px;
+     }
+     .hinchada{
+        height: 130px;
+     }
+ .Imagenes{
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         border: blue 2px;
+         margin-left: 0 auto;
+         text-align: center;
+     }
+ .camisetas, .trofeos{
+         height: 150px;
+         width: 300px;
+     }
+.hidden{
+    display: none;
+}
+    
+/* Escritorio */
+@media screen and (min-width: 660px) {
+    .menu_btn {
+       display: none;
+    }
+    ul.nav {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 au;
+}
+.hinchada{
+    height: 330px;
+     }
+     .trofeos{
+        height: 300px;
+        width: 500px;
+    }
+    .tablaDi{
+        height: 20px;
+        margin:  0 auto;
+    }
+    .tablaDesc{
+        text-align: center;
+        justify-content: center;
+    margin: 120px auto;
+    }
+.texto{
+    padding: 30px;
+}
+}

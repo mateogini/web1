@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma Parte</title>
+    <link rel="stylesheet" href="css/style.css">
+</head> 
+    <body>
+        <header>
+            <div class="menu_btn"><a>MENÚ</a></div>
+          </div>
+          <div class="menu">
+            <ul class="nav">
+                
+                 <li><a href="forma_parte.html">Forma Parte</a></li>
+                 <li><a href="el_club.html">El Club</a></li>
+                 <li><a href="index.html">Inicio</a></li>
+             </ul>
+          </div>  
+        </header>
+       <div class="texto">
+        <h2 class="tituloPrin"> ¡Hacete socio! </h2>
+        <p>Vos tambien podes ser parte, solo completá este formulario</p></div>
+        <form class="formulario">
+            <label>Nombre</label>
+            <input type="text" name="nombre" id="nombrecap" required>
+            <label>Apellido</label>
+            <input type="text" name="Apellido" id="apellidocap" required>
+            <label>Telefono</label>
+            <input type="text" name="telefono" id="telefonocap" required>
+            <label>Mail</label>
+            <input type="mail" name="mail" id="mailcap" required>
+            <label>Ciudad Natal</label>
+            <input type="ciudad" name="ciudad" id="ciudadcap" required>
+            <label for="checkbox">Deseo recibir informacion a mi mail</label>
+            <input type="checkbox" name="notificaciones" value=""/>
+            <div class="captcha">
+            <label> Verificar que no sos un robot</label>
+            <input type="text" id="captcha" disabled>
+            <input type="text" id="InputText">
+            <button type="button" onclick="generarcaptcha()">Cargar Captcha</button>
+            </div>
+            <p class="verificacionCaptcha"> </p>
+            <div class="enviar">
+              <button class="enviarForm" type="submit" value="" >Enviar</button>
+            </div>
+        </form>
+       <script src="js/main.js"></script>
+    </body>
+</html>

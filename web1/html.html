@@ -1,0 +1,40 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Cotizador Online de Seguros</h1>
+<form id="form_cotizador">
+   <label for="cliente">Nombre y apellido</label>
+   <input id="cliente" name="cliente" type="text">
+ 
+   <label for="dominio">Dominio (patente)</label>
+   <input id="dominio" name="dominio" type="text">
+ 
+   <label for="valor">Valor del automóvil ($)</label>
+   <input id="valor" name="valor" type="number">
+ 
+   <label for="tipo">Tipo de seguro</label>
+   <select id="tipo" name="tipo">
+       <option value="tercero">Terceros completo</option>
+       <option value="todo_riesgo">Todo riesgo</option>
+   </select>
+ 
+   <button id="btn_cotizar" type="submit">Cotizar</button>
+</form>
+ 
+<h2>Su cotización</h2>
+<section class="contenedor_cotizacion">
+ <!-- contenedor para escribir los datos de la cotización -->
+</section>
+    
+
+   <script src="main.js"></script>
+</body>
+
+   </html>

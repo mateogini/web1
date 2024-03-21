@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Club</title>
+    <link rel="stylesheet" href="css/style.css ">
+    <body>
+        <header>
+            <div class="menu_btn"><a>MENÚ</a></div>
+          </div>
+          <div class="menu">
+            <ul class="nav">
+                 <li><a href="forma_parte.html">Forma Parte</a></li>
+                 <li><a href="el_club.html">El Club</a></li>
+                 <li><a href="index.html">Inicio</a></li>
+             </ul>
+          </div>  
+        </header>
+        <div class="texto" >
+        <h2  class="tituloPrin" >Sector Venta</h2>
+        <p>La camiseta de Boca es más que una simple indumentaria deportiva. Es el tesoro de cada hincha que pide a sus jugadores que la transpiren hasta la última gota de sudor. Es el manto sagrado, ese por el cual se han creado cientos de canciones venerándola. Es el símbolo que une a todos los Xeneizes diseminados por el mundo</p>
+        <p>Disponemos de camisetas  a la venta de manera limitada (envios solo República Argentina)</p>
+    <table class="tabla">
+        <tr>
+            <th>Precio</th>
+            <th>Equipación</th>
+        </tr>
+        <tr>
+            <td>$11999</td>
+            <td>Tercera Equipación Edición 22/23</td>
+        </tr>
+        <tr>
+            <td>$19990</td>
+            <td>Equipación Titular  Edicion 22/23</td>
+        </tr>
+        <tr>
+            <td>$15000</td>
+            <td>Equipación Visitante Edicion 22/23</td>
+        </tr>
+        <tr>
+            <td>$9900</td>
+            <td>Buzo Ligero De Entrenamiento </td>
+        </tr>
+        <tr>
+            <td>$7999</td>
+            <td>Chomba Tres Tiras</td>
+        </tr>
+    </table>
+    <h2>Llevate la tuya</h2>
+    <p>Estamos vendiendo indumentario del Club, solo completa con lo que quieras llevar y nos contactaremos con vos</p>
+   <form class="formulario_venta">
+    <label for="producto"> Equipación</label>
+    <input type="text" name="producto" id="producto" required >
+    <label for="precio"> Precio</label>
+    <input type="number" name="precio" id="precio" required >
+    <button type="submit" id="btnAdd">Agregar</button>
+   </form>   
+   <form id="formEdit" class="hidden">
+    <fieldset id="inputsedit" class="formeditar">
+    <input id="inputEditId" type="hidden" name="id" required>
+    <label for="producto"> Editar Equipación</label>
+    <input type="text" name="editarProducto" id="editarProducto" required >
+    <label for="precio"> Editar Precio</label>
+    <input type="number" name="editarPrecio" id="editarPrecio" required>
+    <button id="buttoneditar">Editar</button>
+    </fieldset>
+   </form>
+    <table class="tablaDesc">
+    </table>
+    <h2 class="museoT">Esto es parte del museo que podés visitar</h2>
+    <div class="Imagenes">
+     <figure><img class="camisetas" src="img/museoo.jpg" alt="Museo"></figure>
+    <figure> <img class="trofeos" src="img/museo.jpg" alt="Trofeos"> </figure>
+    </div>
+<script src="js/tabla.js"></script>
+    </body>
+    
+</html>
